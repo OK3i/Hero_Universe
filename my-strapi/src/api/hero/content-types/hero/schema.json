@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "role": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "lore": {
+      "type": "richtext"
+    },
+    "color": {
+      "type": "string"
+    },
+    "hp": {
+      "type": "integer"
+    },
+    "mana": {
+      "type": "integer"
+    },
+    "attack": {
+      "type": "integer"
+    },
+    "defense": {
+      "type": "integer"
+    },
+    "speed": {
+      "type": "integer"
+    },
+    "abilities": {
+      "type": "json"
+    },
+    "strengths": {
+      "type": "json"
+    },
+    "weaknesses": {
+      "type": "json"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
