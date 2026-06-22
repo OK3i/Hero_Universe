@@ -18,7 +18,7 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.45.0",
     "@strapi/plugin-users-permissions": "5.45.0",
-    "@strapi/strapi": "5.45.0",
+    "@strapi/strapi": "5.48.1",
     "better-sqlite3": "12.8.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
